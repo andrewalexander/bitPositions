@@ -14,6 +14,7 @@ int main(int argc, char const *argv[]){
 	ifstream file(argv[1], ifstream::in);
 
 	while(file.good()&&!file.eof()){
+		
 		/* input the variables */
 		getline(file, input);
 		if (input.find(",")!=-1)
